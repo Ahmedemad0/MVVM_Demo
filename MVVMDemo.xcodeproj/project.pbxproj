@@ -9,21 +9,31 @@
 /* Begin PBXBuildFile section */
 		EA10DF152AA8C582007CD4A4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF142AA8C582007CD4A4 /* AppDelegate.swift */; };
 		EA10DF172AA8C582007CD4A4 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF162AA8C582007CD4A4 /* SceneDelegate.swift */; };
-		EA10DF192AA8C582007CD4A4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF182AA8C582007CD4A4 /* ViewController.swift */; };
-		EA10DF1C2AA8C582007CD4A4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF1A2AA8C582007CD4A4 /* Main.storyboard */; };
 		EA10DF1E2AA8C583007CD4A4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF1D2AA8C583007CD4A4 /* Assets.xcassets */; };
 		EA10DF212AA8C583007CD4A4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF1F2AA8C583007CD4A4 /* LaunchScreen.storyboard */; };
+		EA10DF2A2AA8C5AC007CD4A4 /* RxCocoa in Frameworks */ = {isa = PBXBuildFile; productRef = EA10DF292AA8C5AC007CD4A4 /* RxCocoa */; };
+		EA10DF2C2AA8C5AC007CD4A4 /* RxSwift in Frameworks */ = {isa = PBXBuildFile; productRef = EA10DF2B2AA8C5AC007CD4A4 /* RxSwift */; };
+		EA10DF352AA8C5F4007CD4A4 /* PostsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF332AA8C5F4007CD4A4 /* PostsTableViewCell.swift */; };
+		EA10DF362AA8C5F4007CD4A4 /* PostsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF342AA8C5F4007CD4A4 /* PostsTableViewCell.xib */; };
+		EA10DF392AA8C607007CD4A4 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF372AA8C607007CD4A4 /* HomeViewController.swift */; };
+		EA10DF3A2AA8C607007CD4A4 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = EA10DF382AA8C607007CD4A4 /* HomeViewController.xib */; };
+		EA10DF3C2AA8C613007CD4A4 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF3B2AA8C613007CD4A4 /* HomeViewModel.swift */; };
+		EA10DF3E2AA8C61C007CD4A4 /* PostsModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA10DF3D2AA8C61C007CD4A4 /* PostsModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		EA10DF112AA8C582007CD4A4 /* MVVMDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MVVMDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA10DF142AA8C582007CD4A4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EA10DF162AA8C582007CD4A4 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EA10DF182AA8C582007CD4A4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		EA10DF1B2AA8C582007CD4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		EA10DF1D2AA8C583007CD4A4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EA10DF202AA8C583007CD4A4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EA10DF222AA8C583007CD4A4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA10DF332AA8C5F4007CD4A4 /* PostsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsTableViewCell.swift; sourceTree = "<group>"; };
+		EA10DF342AA8C5F4007CD4A4 /* PostsTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PostsTableViewCell.xib; sourceTree = "<group>"; };
+		EA10DF372AA8C607007CD4A4 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		EA10DF382AA8C607007CD4A4 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
+		EA10DF3B2AA8C613007CD4A4 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
+		EA10DF3D2AA8C61C007CD4A4 /* PostsModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostsModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +41,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EA10DF2C2AA8C5AC007CD4A4 /* RxSwift in Frameworks */,
+				EA10DF2A2AA8C5AC007CD4A4 /* RxCocoa in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -56,15 +68,67 @@
 		EA10DF132AA8C582007CD4A4 /* MVVMDemo */ = {
 			isa = PBXGroup;
 			children = (
+				EA10DF2D2AA8C5B2007CD4A4 /* Modules */,
 				EA10DF142AA8C582007CD4A4 /* AppDelegate.swift */,
 				EA10DF162AA8C582007CD4A4 /* SceneDelegate.swift */,
-				EA10DF182AA8C582007CD4A4 /* ViewController.swift */,
-				EA10DF1A2AA8C582007CD4A4 /* Main.storyboard */,
 				EA10DF1D2AA8C583007CD4A4 /* Assets.xcassets */,
 				EA10DF1F2AA8C583007CD4A4 /* LaunchScreen.storyboard */,
 				EA10DF222AA8C583007CD4A4 /* Info.plist */,
 			);
 			path = MVVMDemo;
+			sourceTree = "<group>";
+		};
+		EA10DF2D2AA8C5B2007CD4A4 /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF2E2AA8C5BD007CD4A4 /* Home */,
+			);
+			path = Modules;
+			sourceTree = "<group>";
+		};
+		EA10DF2E2AA8C5BD007CD4A4 /* Home */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF312AA8C5D1007CD4A4 /* View */,
+				EA10DF302AA8C5C9007CD4A4 /* ViewModel */,
+				EA10DF2F2AA8C5C3007CD4A4 /* Model */,
+			);
+			path = Home;
+			sourceTree = "<group>";
+		};
+		EA10DF2F2AA8C5C3007CD4A4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF3D2AA8C61C007CD4A4 /* PostsModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA10DF302AA8C5C9007CD4A4 /* ViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF3B2AA8C613007CD4A4 /* HomeViewModel.swift */,
+			);
+			path = ViewModel;
+			sourceTree = "<group>";
+		};
+		EA10DF312AA8C5D1007CD4A4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF322AA8C5DF007CD4A4 /* Cell */,
+				EA10DF372AA8C607007CD4A4 /* HomeViewController.swift */,
+				EA10DF382AA8C607007CD4A4 /* HomeViewController.xib */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		EA10DF322AA8C5DF007CD4A4 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				EA10DF332AA8C5F4007CD4A4 /* PostsTableViewCell.swift */,
+				EA10DF342AA8C5F4007CD4A4 /* PostsTableViewCell.xib */,
+			);
+			path = Cell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +147,10 @@
 			dependencies = (
 			);
 			name = MVVMDemo;
+			packageProductDependencies = (
+				EA10DF292AA8C5AC007CD4A4 /* RxCocoa */,
+				EA10DF2B2AA8C5AC007CD4A4 /* RxSwift */,
+			);
 			productName = MVVMDemo;
 			productReference = EA10DF112AA8C582007CD4A4 /* MVVMDemo.app */;
 			productType = "com.apple.product-type.application";
@@ -111,6 +179,9 @@
 				Base,
 			);
 			mainGroup = EA10DF082AA8C582007CD4A4;
+			packageReferences = (
+				EA10DF282AA8C5AC007CD4A4 /* XCRemoteSwiftPackageReference "RxSwift" */,
+			);
 			productRefGroup = EA10DF122AA8C582007CD4A4 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -127,7 +198,8 @@
 			files = (
 				EA10DF212AA8C583007CD4A4 /* LaunchScreen.storyboard in Resources */,
 				EA10DF1E2AA8C583007CD4A4 /* Assets.xcassets in Resources */,
-				EA10DF1C2AA8C582007CD4A4 /* Main.storyboard in Resources */,
+				EA10DF3A2AA8C607007CD4A4 /* HomeViewController.xib in Resources */,
+				EA10DF362AA8C5F4007CD4A4 /* PostsTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,23 +210,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EA10DF192AA8C582007CD4A4 /* ViewController.swift in Sources */,
+				EA10DF392AA8C607007CD4A4 /* HomeViewController.swift in Sources */,
+				EA10DF3C2AA8C613007CD4A4 /* HomeViewModel.swift in Sources */,
 				EA10DF152AA8C582007CD4A4 /* AppDelegate.swift in Sources */,
 				EA10DF172AA8C582007CD4A4 /* SceneDelegate.swift in Sources */,
+				EA10DF3E2AA8C61C007CD4A4 /* PostsModel.swift in Sources */,
+				EA10DF352AA8C5F4007CD4A4 /* PostsTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		EA10DF1A2AA8C582007CD4A4 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				EA10DF1B2AA8C582007CD4A4 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		EA10DF1F2AA8C583007CD4A4 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -292,7 +359,7 @@
 				INFOPLIST_FILE = MVVMDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -320,7 +387,7 @@
 				INFOPLIST_FILE = MVVMDemo/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UIMainStoryboardFile = "";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -358,6 +425,30 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EA10DF282AA8C5AC007CD4A4 /* XCRemoteSwiftPackageReference "RxSwift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/ReactiveX/RxSwift.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 6.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EA10DF292AA8C5AC007CD4A4 /* RxCocoa */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA10DF282AA8C5AC007CD4A4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxCocoa;
+		};
+		EA10DF2B2AA8C5AC007CD4A4 /* RxSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EA10DF282AA8C5AC007CD4A4 /* XCRemoteSwiftPackageReference "RxSwift" */;
+			productName = RxSwift;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EA10DF092AA8C582007CD4A4 /* Project object */;
 }
